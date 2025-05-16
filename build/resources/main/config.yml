@@ -1,0 +1,15 @@
+# Database configuration
+database:
+  host: "ash-gmm-1008.pufferfish.host"
+  port: 3306
+  name: "s3030_MinecraftStats"
+  user: "u3030_YO8ER7fYoE"
+  password: "1jqVpk6=XQhdzng4U!2rW@j4"
+
+# HikariCP connection pool settings
+connection-pool:
+  maximum-pool-size: 10
+  minimum-idle: 5
+  connection-timeout: 30000
+  idle-timeout: 600000
+  max-lifetime: 1800000

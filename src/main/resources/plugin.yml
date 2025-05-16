@@ -1,0 +1,16 @@
+name: StatsTracker
+version: '0.1-BETA'
+main: nl.svendev.statsTracker.StatsTracker
+api-version: '1.21'
+authors: [ Sven ]
+commands:
+  stats:
+    description: View player statistics
+    usage: /stats [player]
+    permission: statstracker.stats
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  statstracker.stats:
+    description: Allows use of the stats command
+    default: true
