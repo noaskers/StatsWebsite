@@ -1,24 +1,101 @@
-# Compiled class file
+# Java Gitignore
+# Enhanced version with additional common exclusions
+
+### Compiled Files ###
 *.class
+*.exe
+*.dll
+*.so
+*.dylib
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+### Build Output ###
+bin/
+build/
+out/
+target/
+dist/
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
 *.zip
 *.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+### IDE Specific ###
+# Eclipse
+.settings/
+.classpath
+.project
+*.launch
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+*.orig
+
+# NetBeans
+nbproject/
+nbactions.xml
+.nb-gradle/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+### Logs and Reports ###
+*.log
+logs/
+*.tmp
+*.swp
+*.swo
+*.bak
+*.rej
+*.orig
 hs_err_pid*
 replay_pid*
+
+### Dependency Management ###
+.gradle/
+.mvn/
+mvnw
+mvnw.cmd
+gradle/
+gradlew
+gradlew.bat
+
+### Testing ###
+# JUnit
+*.jfr
+*.hprof
+surefire-reports/
+failsafe-reports/
+test-output/
+
+### System Files ###
+.DS_Store
+Thumbs.db
+
+### BlueJ ###
+*.ctxt
+
+### Mobile Tools for Java ###
+.mtj.tmp/
+
+### Local Development ###
+.env
+*.properties
+*.cfg
+*.config
+
+### Documentation ###
+javadoc/
+*.doc
+*.docx
+*.pdf
+*.xls
+*.xlsx
+*.ppt
+*.pptx
